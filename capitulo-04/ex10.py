@@ -2,7 +2,7 @@ consumo_kWh = int(input("Quantidade de kWh consumida: "))
 tipo_instalacao = input("Tipo de instalação: R para residências, "
                         "I para indústrias e C para comércios: ")
 
-preço = 0
+preço = 0.0
 
 if tipo_instalacao == "R":
     if consumo_kWh < 500:
