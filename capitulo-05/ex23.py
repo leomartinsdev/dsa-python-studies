@@ -1,5 +1,5 @@
 while True:
-    numero = 19
+    numero = int(input("Escolha um número: "))
     counter = 2
 
     if numero == 2:
