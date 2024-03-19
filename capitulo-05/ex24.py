@@ -11,7 +11,7 @@ while True:
         print(f"{posicao}o número primo: 2")
 
         while posicao <= numero:
-            if ((current_number % 2) == 0):
+            if (current_number % 2) == 0:
                 current_number += 1
             else:
                 while impar_atual < current_number:
@@ -23,3 +23,7 @@ while True:
         break
 
 print(f"{posicao}o número primo: {current_number}")
+
+
+# Continuar esse exercício amanhã sem falta.
+# Lembrar que já vez uma parte da lógica no ex23. *#
