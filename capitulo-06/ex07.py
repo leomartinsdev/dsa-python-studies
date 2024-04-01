@@ -13,6 +13,6 @@ while index < len(expressão):
         index += 1
 
 if len(pilha) == 0:
-    print("Expressão correta")
+    print("Expressão correta - OK")
 else:
-    print("Expressão incorreta")
+    print("Expressão incorreta - Erro ")
