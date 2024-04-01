@@ -5,7 +5,7 @@ fila2 = list(range(1, último_fila2 + 1))
 
 while True:
     print(f"\nExistem {len(fila1)} clientes na fila 1 e")
-    print(f"\n {len(fila2)} clientes na fila 2")
+    print(f"{len(fila2)} clientes na fila 2.")
     print(f"Fila 1 atual: {fila1}")
     print(f"Fila 2 atual: {fila2}")
     print("Digite F para adicionar um cliente ao fim da fila 1,")
@@ -13,7 +13,7 @@ while True:
     print("\nDigite A para realizar o atendimento na fila 1 ou B para")
     print("atendimento na fila 2. S para sair.")
 
-    operação = list(input("Operação (F, A, S): "))
+    operação = list(input("Operação (F, G, A, B ou S): "))
 
     index = 0
 
