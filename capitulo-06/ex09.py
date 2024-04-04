@@ -12,4 +12,6 @@ while x < len(L):
     elif L[x] == v:
         print(f"{v} achado na posição {x}. {v} Foi encontrado primeiro.")
         break
+    elif x == len(L) - 1:
+        print("Nenhum dos dois valores foi encontrado.")
     x += 1
