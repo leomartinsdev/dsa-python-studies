@@ -1,4 +1,4 @@
-L = [7, 4, 3, 12, 8]
+L = [3, 3, 1, 5, 4]
 fim = 5
 
 while fim > 1:
@@ -16,3 +16,6 @@ while fim > 1:
     fim -= 1
 for e in L:
     print(e)
+
+# Os elementos repetidos não trocam de posição, pois a condicional da linha 8
+# não é verdadeira nesses casos.

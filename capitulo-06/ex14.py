@@ -1,4 +1,4 @@
-L = [7, 4, 3, 12, 8]
+L = [1, 2, 3, 4, 5]
 fim = 5
 
 while fim > 1:
@@ -16,3 +16,6 @@ while fim > 1:
     fim -= 1
 for e in L:
     print(e)
+
+# Como a lista já está ordenada, a condicional da linha 8 nunca é verdadeira e
+# portanto não há troca de elementos.
